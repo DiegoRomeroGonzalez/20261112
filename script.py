@@ -32,6 +32,7 @@ while activo:
             if pin1 == pin2:
                 pinvalido = True
                 pin = pin1
+                
             else:
                 print("Los PINs no coinciden. Intente de nuevo.")
         cliente = Client(nombre, apellido, pin)
@@ -48,4 +49,3 @@ while activo:
         #elegir una cuenta bancaria del cliente
         #sacar dinero de la cuenta
         pass
-    
